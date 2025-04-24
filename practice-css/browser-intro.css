@@ -25,3 +25,8 @@ div#zentai > div {
 	margin-left: 5px;
 	background-color: #ffefaf;
 }
+
+.info {
+	font-size: small;
+	background-color: #dfdfdf;
+}
