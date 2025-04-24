@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    border-bottom: 7px dotted white;
+    line-height: 100px
+}
+
+h2{
+    color: gray;
+    background: linear-gradient(75deg, white 20%,lightgray 80%);
+}
+
+h3{
+    text-indent: 1.5em;
+}
+
+p{
+    text-indent: 3.0em;
+}
+
+.lin{
+    line-height: 60px;
+}
+
+a:link{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: skyblue;
+}
