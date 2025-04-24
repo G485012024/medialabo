@@ -20,7 +20,7 @@ div#zentai {
 	flex-direction: row;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 100px 100px;
-	width: 500px;
+	width: 2048px;
 }
 
 div#zentai > div {
@@ -31,4 +31,8 @@ div#zentai > div {
 .info {
 	font-size: small;
 	background-color: #dfdfdf;
+}
+
+.time {
+	color: blue;
 }
