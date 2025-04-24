@@ -33,7 +33,7 @@ div#zentai > div {
 }
 
 img{
-	float: right;
-	width: 50;
-	height: 50px;
+	float: inline-end;
+	width: 60;
+	height: 60px;
 }
