@@ -30,7 +30,8 @@ a:link{
 }
 
 a:visited{
-    color: gray;
+    color: blue;
+    text-decoration: underline;
 }
 
 a:hover{
