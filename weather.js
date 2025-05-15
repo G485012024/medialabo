@@ -2,7 +2,8 @@
 // 課題3-2 のプログラムはこの関数の中に記述すること
 function print(data) {
   console.log(data.name);
-  console.log(data.weather[0].description);
+  console.log(data.weather[0].description)
+  console.log()
 }
 
 // 課題5-1 の関数 printDom() はここに記述すること
@@ -91,3 +92,8 @@ let data = {
   "cod": 200
 };
 
+b = document.querySelector('button#run').addEventListener('click',search);
+function search(){
+  let key = document.querySelector('input[name="key"]').value;
+  console.log("検索キー："+key);
+}
