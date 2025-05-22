@@ -8,7 +8,27 @@ function print(data) {
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
+  let u = document.createElement('tr');
 
+  //最高気温
+  l = document.createElement('td')
+  l.textContent ='最高気温';
+  u.insertAdjacentElement('beforeend',l);
+  l = document.createElement('td')
+  l.textContent =data.main.temp_max;
+  u.insertAdjacentElement('beforeend',l);
+
+  //最低気温
+  l = document.createElement('td')
+  l.textContent ='最低気温';
+  u.insertAdjacentElement('beforeend',l);
+  l = document.createElement('td')
+  l.textContent =data.main.temp_min;
+  u.insertAdjacentElement('beforeend',l);
+
+
+  p = document.querySelector('p#search');
+  p.insertAdjacentElement('afterend',u);
 }
 
 // 課題5-1 のイベントハンドラの定義
@@ -96,4 +116,5 @@ b = document.querySelector('button#run').addEventListener('click',search);
 function search(){
   let key = document.querySelector('input[name="key"]').value;
   console.log("検索キー："+key);
+  printDom(data);
 }
