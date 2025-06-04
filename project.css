@@ -1,5 +1,39 @@
 h1{
     font-size: 50px;
     text-align: center;
-    line-height: 700px;
+    line-height: 100px;
+}
+
+input#key {
+  position: relative;
+  width: 100%;
+  margin: 40px 0;
+}
+input#key[type=text] {
+  font: 15px/1.6 sans-serif;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 0.3em;
+  transition: 0.3s;
+  border: 1px solid #1b2538;
+  border-radius: 20px;
+  outline: none;
+  display: block;
+  margin: 0px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  font: 15px/1.6 sans-serif;
+  width: 300px;
+  padding: 0.3em;
+  border: 1px solid #1b2538;
+  border-radius: 20px;
+  display: block;
+  margin: 5px auto;
+}
+
+body{
+    background: linear-gradient(75deg, rgb(142, 205, 208) 20%,rgb(157, 188, 230) 80%);
 }

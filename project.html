@@ -4,11 +4,14 @@
         <meta charset="utf-8">
         <title>世界の天気</title>
         <link rel="stylesheet" href="project.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <script src="weather.js" defer></script>
     </body>
     <head>
         <h1>世界の天気</h1>
-        <p id="search">検索：<input type="text" name="key" id="key" size="10"><button id="run">検索</button></p>
+        <!--<p id="search">検索：<input type="text" name="key" id="key" size="10"><button id="run">検索</button></p>-->
+        
+        <input type="text" id="key" placeholder="地名"><button id="push">検索</button>
         <!--<p>（検索結果１件）</p>
         <h2>北京市</h2>
         <h3>&#x1f325;</h3>
